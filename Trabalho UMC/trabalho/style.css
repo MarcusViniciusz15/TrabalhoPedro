@@ -6,12 +6,12 @@
 
 body {
     background-color: #0b0216; /* Fundo escuro base */
-    color: #b5c3d2; /* Cor de texto padrão suave da imagem 1 */
+    color: #b5c3d2; /* Cor de texto padrão suave*/
     font-family: 'Rajdhani', sans-serif;
     overflow-x: hidden;
 }
 
-/* --- Estilos do Cabeçalho (Navbar) --- */
+/*Estilos do Cabeçalho*/
 .navegacao {
     display: flex;
     justify-content: space-between;
@@ -51,13 +51,13 @@ body {
     color: #00ffff; /* Ciano neon no hover */
 }
 
-/* --- Seção Principal (Main) --- */
+/*Seção Principal*/
 .main-content {
-    margin-top: 80px; /* Desconto do header fixo */
+    margin-top: 80px; 
     padding: 60px 20px;
     min-height: 100vh;
     position: relative;
-    /* Fundo gradiente com formas geométricas baseada na imagem 0 */
+    /* Fundo gradiente com formas geométricas*/
     background: 
         radial-gradient(circle at 15% 50%, rgba(98, 0, 234, 0.2) 0%, transparent 40%),
         radial-gradient(circle at 85% 30%, rgba(0, 229, 255, 0.15) 0%, transparent 40%),
@@ -69,7 +69,7 @@ body {
     margin: 0 auto;
 }
 
-/* --- Títulos da Página --- */
+/*Títulos da Página*/
 .titulo {
     font-family: 'Orbitron', sans-serif;
     font-size: 42px;
@@ -77,7 +77,7 @@ body {
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 10px;
-    /* Efeito de brilho neon semelhante ao "CAFE MENU" */
+    /* Efeito de brilho neon*/
     text-shadow: 0 0 10px #e500e5, 0 0 20px #e500e5, 0 0 30px #e500e5;
 }
 
@@ -89,25 +89,25 @@ body {
     font-weight: 500;
 }
 
-/* --- Grid de Cartões --- */
+/*Grid de Cartões*/
 .analise-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 40px;
 }
 
-/* --- Estilo dos Cartões (Bordas Arredondadas da Imagem 1) --- */
+/*Estilo dos Cartões*/
 .cartoes-risco {
-    /* Fundo escuro semi-transparente como os itens de menu */
+    /* Fundo escuro semi-transparente*/
     background-color: rgba(14, 2, 28, 0.85); 
-    border-radius: 20px; /* CANTOS ARREDONDADOS SOLICITADOS */
+    border-radius: 20px;
     padding: 30px;
     position: relative;
     /* Borda sutil e sombra para efeito de brilho */
     border: 1px solid rgba(110, 62, 255, 0.3);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    overflow: hidden; /* Garante que o brilho interno não escape */
+    overflow: hidden; 
 }
 
 /* Efeito de hover nos cartões */
@@ -117,7 +117,7 @@ body {
     border-color: rgba(0, 255, 255, 0.5);
 }
 
-/* Título de cada cartão (Estilo Magenta da imagem 1) */
+/* Título de cada cartão*/
 .cartoes-header {
     color: #e500e5;
     font-size: 20px;
@@ -144,12 +144,12 @@ body {
 
 .item-risco .value {
     display: block;
-    color: #a4b3d3; /* Azul acinzentado da imagem 1 */
+    color: #a4b3d3; /* Azul acinzentado*/
     font-size: 16px;
     line-height: 1.4;
 }
 
-/* Destaque para o Princípio Afetado (Estilo Ciano da imagem 1) */
+/* Destaque para o Princípio Afetado*/
 .item-risco-principal {
     margin-top: 25px;
     padding-top: 15px;
@@ -166,7 +166,7 @@ body {
     letter-spacing: 1px;
 }
 
-/* --- Responsividade --- */
+/*Responsividade*/
 @media (max-width: 768px) {
     .navegacao {
         padding: 15px 20px;
